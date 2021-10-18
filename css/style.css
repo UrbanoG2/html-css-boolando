@@ -1,3 +1,5 @@
+/* generic rules */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +16,7 @@ main {
     margin: 20px auto;
 }
 
+/* general and single cars rules */
 
 .card {
     width: calc(30% - 5px);
@@ -88,6 +91,7 @@ main {
     background-image: url(../imgb/6b.webp);
 }
 
+/* button setup */
 
 #button {
     position: absolute;
@@ -108,6 +112,8 @@ main {
     color: red;
 }
 
+/* labels rules */
+
 .discount{
     color: white;
     font-weight: bold;
@@ -125,6 +131,8 @@ main {
     padding: 5px;
     font-weight: bold;
 }
+
+/* product details */
 
 h5{
     margin-top: 10px;
