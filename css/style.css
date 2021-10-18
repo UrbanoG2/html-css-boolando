@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 70%;
+    margin: 20px auto;
+}
+
+
+.card {
+    width: 30%;
+    height: 500px;
+    float: left;
+    margin: 20px;
+}
+
+.topleft {
+    height: 100%;
+    background-image: url(../img/1.webp);
+    background-size: cover;
+}
+
+.discount{
+    display: inline-block;
+    margin-top: 450px;
+}
+
+h5{
+    margin-top: 5px;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+.redprice {
+    color: red;
+    font-weight: bold;
+}
+
+.barredprice {
+    color: grey;
+    text-decoration-line:line-through;
+}
