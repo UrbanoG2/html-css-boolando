@@ -5,6 +5,10 @@
     font-family: 'Raleway', sans-serif;
 }
 
+html {
+    margin-bottom: 100px;
+}
+
 main {
     width: 70%;
     margin: 20px auto;
@@ -12,20 +16,96 @@ main {
 
 
 .card {
-    width: 30%;
+    width: calc(30% - 5px);
     height: 500px;
     float: left;
-    margin: 20px;
+    margin: 50px 20px;
 }
 
 .topleft {
     height: 100%;
     background-image: url(../img/1.webp);
     background-size: cover;
+    position: relative;
 }
 
 .topleft:hover {
     background-image: url(../imgb/1b.webp);
+}
+
+.topcenter {
+    height: 100%;
+    background-image: url(../img/2.webp);
+    background-size: cover;
+    position: relative;
+}
+
+.topcenter:hover {
+    background-image: url(../imgb/2b.webp);
+}
+
+.topright {
+    height: 100%;
+    background-image: url(../img/3.webp);
+    background-size: cover;
+    position: relative;
+}
+
+.topright:hover {
+    background-image: url(../imgb/3b.webp);
+}
+
+.btleft {
+    height: 100%;
+    background-image: url(../img/4.webp);
+    background-size: cover;
+    position: relative;
+}
+
+.btleft:hover {
+    background-image: url(../imgb/4b.webp);
+}
+
+.btcenter {
+    height: 100%;
+    background-image: url(../img/5.webp);
+    background-size: cover;
+    position: relative;
+}
+
+.btcenter:hover {
+    background-image: url(../imgb/5b.webp);
+}
+
+.btright {
+    height: 100%;
+    background-image: url(../img/6.webp);
+    background-size: cover;
+    position: relative;
+}
+
+.btright:hover {
+    background-image: url(../imgb/6b.webp);
+}
+
+
+#button {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 50px;
+    color: white;
+    border: none;
+    background-color: #e8e8e8;
+}
+
+#button:hover {
+    color: red;
+    cursor: pointer;
+}
+
+#button:focus {
+    color: red;
 }
 
 .discount{
@@ -39,6 +119,8 @@ main {
 
 .sustain {
     background-color:rgb(0, 199, 116);
+    margin-top: 450px;
+    display: inline-block;
     color: white;
     padding: 5px;
     font-weight: bold;
